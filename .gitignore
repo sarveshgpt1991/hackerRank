@@ -1,4 +1,6 @@
-tmp.*
-*.in
-#Unignore .cpp files
+*
+!*/
+!*.c
+!*.h
 !*.cpp
+!*.md
