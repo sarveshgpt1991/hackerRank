@@ -24,7 +24,6 @@ int func(string s){
 }
 
 int main(){
-	freopen("../input.in", "r", stdin);
 	int T;
 	cin>>T;
 	for(int i=0; i<T; i++) {

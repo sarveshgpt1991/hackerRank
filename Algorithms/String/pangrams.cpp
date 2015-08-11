@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/pangrams
+
 #include <iostream>
 #include <climits>
 #include <cstdio>
@@ -29,7 +31,6 @@ void isPangram(string s){
 }
 
 int main(){
-	freopen("../input.in", "r", stdin);
 	string s;
 	getline (cin, s);
 	isPangram(s);

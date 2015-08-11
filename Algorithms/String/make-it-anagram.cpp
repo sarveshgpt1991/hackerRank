@@ -23,7 +23,6 @@ int func(string A, string B){
 }
 
 int main(){
-	freopen("../input.in", "r", stdin);
 	string A, B;
 	cin>>A>>B;
 	cout<<func(A, B);

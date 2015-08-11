@@ -20,7 +20,6 @@ void commonSubStr(string A, string B){
 }
 
 int main(){
-	freopen("../input.in", "r", stdin);
 	int T;
 	cin>>T;
 	for (int i = 0; i < T; ++i) {
